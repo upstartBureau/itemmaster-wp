@@ -5,20 +5,20 @@ vault_mysql_root_password: stagingpw
 vault_users:
   - name: "{{ admin_user }}"
     password: example_password
-    salt: "generateme"
+    salt: "N:ci8/Xq;U{LufzZ.FPif1m3{2TS:rozp3nNsyPw-<*krY>QC?snzmQWv=;^>[vM"
 
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  example.com:
+  staging.newitemmaster.com:
     env:
       db_password: example_dbpassword
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "generateme"
-      secure_auth_key: "generateme"
-      logged_in_key: "generateme"
-      nonce_key: "generateme"
-      auth_salt: "generateme"
-      secure_auth_salt: "generateme"
-      logged_in_salt: "generateme"
-      nonce_salt: "generateme"
+      auth_key: "t].d*9ixt1gE(skOIo;*+fb2w/+A2Ou8E)%g=NdyFabvs>A<+/3L#DV%glzWcP.8"
+      secure_auth_key: "GLXof*F,0S+uYVbF;ys6HtJ_K0|(wrdv._mJ_,+U1yJ!=ifD/V<%Vm35N`k.#;:G"
+      logged_in_key: "Pg&[@E/Y<pP(P]}6eQJNm3dR@a[]EwLN|D-JFuiY4rS5V{yKg7(u,A$T*my=#p_("
+      nonce_key: ":x_7:KfriFX,e2RAGt7@VVftIqYBZ[t0^ReS/C?bSU9e/h0;f)7L=bAT@DXeKi@!"
+      auth_salt: "3<e;ov=71`J:H+.[zcgu#].$3?%JJF]l:fD&JJQC|*R8h^*0q7Q|VnTOq@fak?C!"
+      secure_auth_salt: "18M3K)ZV%B$v30Tvpoc%jH{ei[pkMaQ>;s:w]v0yd?N4[H[}iICBgySdhEd*kI3V"
+      logged_in_salt: "N:ci8/Xq;U{LufzZ.FPif1m3{2TS:rozp3nNsyPw-<*krY>QC?snzmQWv=;^>[vM"
+      nonce_salt: "K]q#{1OGnfU>ny,(oJnx?DyB$}8QtTlZ}c[nWQxM&r%Y-]=cd!29s|Ldgvm9[`G="
