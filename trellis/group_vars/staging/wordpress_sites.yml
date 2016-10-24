@@ -3,19 +3,19 @@
 # Define accompanying passwords/secrets in group_vars/staging/vault.yml
 
 wordpress_sites:
-  newitemmaster.com:
+  staging.newitemmaster.com:
     site_hosts:
       - canonical: staging.newitemmaster.com
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/newitemmaster.com.git # replace with your Git repo URL
+    repo: git@github.com:upstartbureau/itemmaster-wp.com.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: false
