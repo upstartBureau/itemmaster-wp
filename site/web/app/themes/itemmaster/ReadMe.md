@@ -15,6 +15,6 @@ Theme currently relies on the following plugins:
 * [Postman SMTP](https://wordpress.org/plugins/postman-smtp/)
 * [Fast Secure Contact Form](https://wordpress.org/plugins/si-contact-form/)
 
-__they will be located in the mu-plugins directory__
+> _All of the plugins are managed via [Composer](https://roots.io/using-composer-with-wordpress/) php project package manager_
 
-There should be no need to further customize the iM WordPress Theme, and so the editor has been disabled, content can be added to the existing pages, and any additional pages would need  templates created in order to be displayed.
+> There should be no need to further customize the iM WordPress Theme, and so the editor has been disabled, content can be added to the existing pages, and any additional pages would need  templates created in order to be displayed.
