@@ -21,8 +21,8 @@ $ visudo
   $ echo
 
   $ sudo apt-get install build-essential libssl-dev libffi-dev python-dev python-setuptools
-  $ easy_install pip
-  $ pip install ansible
+  $ sudo easy_install pip
+  $ sudo pip install ansible
 
   # staging.newitemmaster.com
   # admin_user: admin

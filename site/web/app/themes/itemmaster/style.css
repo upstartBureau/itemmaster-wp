@@ -344,15 +344,15 @@ section.content.logo-carousel {
 
 .brands {
   min-height: 473px;
-  background-image: url("./theme-resource/images/header-bg.png"); }
+  background-image: url("../../../app/uploads/header-bg.png"); }
 
 .future-proof {
   min-height: 486px;
-  background-image: url("./theme-resource/images/section-bg-2.png"); }
+  background-image: url("../../../app/uploads/section-bg-2.png"); }
 
 .retailers {
   min-height: 473px;
-  background-image: url("./theme-resource/images/header-bg.png"); }
+  background-image: url("../../../app/uploads/header-bg.png"); }
 
 section.content.on-demand {
   width: 100%;
@@ -497,7 +497,7 @@ h1.logo-cloud-headline {
 .cloud-illustration {
   margin: 1em auto;
   display: block;
-  background: url(./theme-resource/images/data-cloud.png) no-repeat;
+  background: url("../../../app/uploads/data-cloud.png") no-repeat;
   background-size: contain;
   width: 768px;
   height: 650px;
