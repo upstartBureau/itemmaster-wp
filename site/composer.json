@@ -39,7 +39,7 @@
     "johnpbloch/wordpress": "4.6.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/advanced-custom-fields": "^4.4",
     "wpackagist-plugin/si-contact-form": "*",
     "wpackagist-plugin/postman-smtp": "*",
     "wpackagist-plugin/wordpress-importer-extended": "*"
