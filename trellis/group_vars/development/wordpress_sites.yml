@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  itemmaster.com:
+  newitemmaster.com:
     site_hosts:
       - canonical: itemmaster.dev
         redirects:
