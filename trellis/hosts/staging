@@ -3,8 +3,6 @@
 
 [staging]
 staging.newitemmaster.com
-# 45.55.17.181
 
 [web]
-# itemmaster.com
 staging.newitemmaster.com

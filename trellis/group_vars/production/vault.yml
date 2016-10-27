@@ -10,7 +10,7 @@ vault_users:
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  itemmaster.com:
+  newitemmaster.com:
     env:
       db_password: DwBDgt57
       auth_key: "Y7GDg.u:}r;K;<YC^4o|Z?Hcd%>aI[5R$<Q#1;Lm_l9ZBH@_0+?</Uz<%}iseJj%"
