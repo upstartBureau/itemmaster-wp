@@ -29,3 +29,7 @@ $ visudo
   # admin_password: fh(bbaDN^ZxKkVi0e2
 
 ```
+  staging.newitemmaster.com
+  SKim
+  skim@itemmaster.com
+  lp!v3m7t9WxzQoi!p@P!ZW9A
