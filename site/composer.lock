@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53ea6b9d22ee36f0e96c53882066f216",
-    "content-hash": "bfa0d86d98ddb2c0e5162480b6e7a92e",
+    "hash": "f85a87670e37b6fd4eaeb547abb5d7ba",
+    "content-hash": "e383d68d12dff9472f9e1c9f23bebfe3",
     "packages": [
         {
             "name": "composer/installers",
@@ -352,7 +352,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
-                "reference": null,
+                "reference": "tags/4.4.11",
                 "shasum": null
             },
             "require": {
@@ -402,24 +402,24 @@
             "homepage": "https://wordpress.org/plugins/si-contact-form/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-importer-extended",
-            "version": "0.3",
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-importer-extended/",
-                "reference": "tags/0.3"
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer-extended.0.3.zip",
-                "reference": "tags/0.3",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-importer-extended/"
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [

@@ -42,7 +42,7 @@
     "wpackagist-plugin/advanced-custom-fields": "^4.4",
     "wpackagist-plugin/si-contact-form": "*",
     "wpackagist-plugin/postman-smtp": "*",
-    "wpackagist-plugin/wordpress-importer-extended": "*"
+    "wpackagist-plugin/wordpress-importer": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
